@@ -2,6 +2,23 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
 
+## [0.2.0] - 2026-11-12
+
+### Changed
+
+1. Modules 3 and 6: eleven concepts that were one line each now say what the concept is, name the thinker's own case where a checked one exists, and say what it means in a system of a person and agents, marked *(the tutor's link)*.
+2. Module 6: "The constraint may be a person" is now "The constraint may be skilled labour", the wording its source supports. Two Must cover points are reworded to what the sources say: the loss accepted is decided at each step, and subordinating means everything else is aligned to the constraint.
+3. Modules 3 and 6 list the pages their concepts were checked against.
+
+### Fixed
+
+1. Module 1: "one manages the constraints, not the outcome" had no source and no mark. It is now marked *(unconfirmed)*.
+2. Module 3: the Categories of Legitimate Reservation no longer imply a fixed count. Summaries list from seven to ten, and Dettmer's own list is marked *(unconfirmed)*.
+
+### Known gaps
+
+1. Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached; the check rests on institute pages and summaries.
+
 ## [0.1.0] - 2026-11-12
 
 First public version.
@@ -20,4 +37,5 @@ First public version.
 2. The voice tutor's progress summary is copied into the workbook by hand.
 3. Some concepts are stated briefly, because the earlier programs that taught them at length are not published.
 
+[0.2.0]: https://github.com/the-magnus/keys2learning/releases/tag/v0.2.0
 [0.1.0]: https://github.com/the-magnus/keys2learning/releases/tag/v0.1.0

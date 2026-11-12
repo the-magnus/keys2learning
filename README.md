@@ -2,7 +2,7 @@
 
 Learning programs taught by an AI tutor. A program gathers the thinkers whose research answers a question you have. The tutor then teaches them on your own work, not on textbook cases. Curated by Keys2Collaboration (K2C).
 
-**Version 0.1.** This is an early start: one program, made for one learner. Read [What to expect, and what not](#what-to-expect-and-what-not) before you rely on any of it.
+**Version 0.2.** This is an early start: one program, made for one learner. Read [What to expect, and what not](#what-to-expect-and-what-not) before you rely on any of it.
 
 ## What is here
 
@@ -56,8 +56,8 @@ Each module has three parts: listen (by voice), build (at the desk, with an agen
 
 1. **No intake for a new learner.** `making.md` says to read where the learner stands, but not yet how a new learner joins an existing program. The route under "How to use it" has not been tried by a second learner.
 2. **The voice tutor's summary is copied by hand** into the workbook.
-3. **Some concepts are stated briefly.** Two earlier programs taught them at more length and are not published. This shows most in modules 3 and 6.
-4. **Each program writes its own voice tutor.** There is no shared template yet.
+3. **Each program writes its own voice tutor.** There is no shared template yet.
+4. **The books themselves are unread.** Modules 3 and 6 were checked against institute pages and summaries. Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached.
 
 ## Contributing
 
