@@ -1,0 +1,50 @@
+name: Source correction
+description: A claim, citation or figure that its source does not support, or an unconfirmed point you can confirm or refute.
+title: "Source: "
+labels: ["source"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The file, and the module and concept or Must cover point, by number and name.
+      placeholder: "textbook.md, module 3, concept 5, Small batches"
+    validations:
+      required: true
+  - type: textarea
+    id: says
+    attributes:
+      label: What the text says
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: What the source says
+      description: Give the citation or link, and the page, section or a short quote.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of evidence of your source
+      options:
+        - Review
+        - Trial
+        - Study
+        - Benchmark
+        - Theory
+        - Practice
+        - Summary
+    validations:
+      required: true
+  - type: dropdown
+    id: checked
+    attributes:
+      label: How you checked
+      options:
+        - I read the original source myself
+        - I read a summary of the source
+        - An AI model checked it and I have not read the source
+    validations:
+      required: true

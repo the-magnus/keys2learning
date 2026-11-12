@@ -1,0 +1,23 @@
+name: Report from use, or an idea
+description: You tried a session or a module, or you have an idea for the method or a program.
+title: "Feedback: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please leave out anything private: no workbook text, and no one's name, case or situation."
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you tried, or what you propose
+      description: The program and module, the style (interactive, podcast or trialogue), and the model or tool you used.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, or what would be better

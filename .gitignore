@@ -1,0 +1,9 @@
+# A learner's private files: workbook, diagrams, anything of theirs.
+local/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

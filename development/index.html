@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>keys2learning: development diagrams</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 12px; background: #fff; color: #222; max-width: 900px; }
+  h1 { font-size: 1.15rem; margin: 0 0 4px; }
+  h2 { font-size: 1.05rem; margin: 18px 0 4px; }
+  p { font-size: 0.9rem; line-height: 1.35; margin: 4px 0; }
+  .read { color: #555; font-style: italic; }
+  .mermaid { margin: 8px 0 4px; }
+  table { font-size: 0.9rem; border-collapse: collapse; margin: 8px 0; }
+  th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; vertical-align: top; }
+  code { font-size: 0.85rem; }
+  section.hide { display: none; }
+</style>
+</head>
+<body>
+<section id="d0">
+<h1>keys2learning: development diagrams</h1>
+<p>Diagrams of how keys2learning is built, for whoever develops it. Open with <code>?d=1</code> to show only diagram 1, <code>?d=2</code> for diagram 2. Mermaid loads from a CDN, so the page needs a connection.</p>
+</section>
+
+<section id="d1">
+<h2>1. Structure: generic and specific (draft)</h2>
+<p class="read">What every program shares, and what belongs to one program or one learner. Blue is generic, green is specific to one program, grey is private to one learner.</p>
+<pre class="mermaid">
+flowchart TB
+  rules["CLAUDE.md<br/>rules for the agent, over all of it"]
+
+  subgraph dev["development/: how programs are made"]
+    direction LR
+    making["making.md<br/>a guide to make any program:<br/>the learner's need sets thinkers and form"]
+    notes["notes.md<br/>how each program came to be"]
+  end
+
+  subgraph prog["programs/: what a learner meets"]
+    tutoring["tutoring.md<br/>how every session runs, the styles"]
+    subgraph one["one program, such as building-with-agents-and-science/"]
+      direction LR
+      about["about.md<br/>what, why, the thinkers"]
+      textbook["textbook.md<br/>lessons or modules"]
+      voice["voice_tutor.md<br/>the Claude Project's instructions"]
+    end
+    subgraph local["its local/: git-ignored"]
+      workbook["workbook.md<br/>one learner's start and progress"]
+    end
+  end
+
+  rules ~~~ dev
+  making -- makes --> one
+  notes -. records why .-> one
+  making -- starts --> workbook
+  one -- "follows, in each session" --> tutoring
+  tutoring -- "writes, at the end of a session" --> workbook
+
+  classDef generic fill:#dbeafe,stroke:#1d4ed8,color:#111
+  classDef specific fill:#dcfce7,stroke:#15803d,color:#111
+  classDef private fill:#e5e7eb,stroke:#4b5563,color:#111
+  class rules,making,tutoring generic
+  class notes,about,textbook,voice specific
+  class workbook private
+  style dev fill:#fff,stroke:#999
+  style prog fill:#fff,stroke:#999
+  style one fill:#fafafa,stroke:#999
+  style local fill:#fff,stroke:#999,stroke-dasharray:4 3
+</pre>
+<table>
+<tr><th></th><th>Generic</th><th>Specific</th></tr>
+<tr><th>Making (<code>development/</code>)</th><td><code>making.md</code>, a guide</td><td><code>notes.md</code>, a section per program</td></tr>
+<tr><th>Running (<code>programs/</code>)</th><td><code>tutoring.md</code></td><td><code>about.md</code>, <code>textbook.md</code>, <code>voice_tutor.md</code></td></tr>
+<tr><th>The learner's (<code>local/</code>)</th><td></td><td><code>workbook.md</code> and anything beside it</td></tr>
+</table>
+</section>
+
+<section id="d2">
+<h2>2. Two forms of textbook</h2>
+<p class="read">What <code>making.md</code> step 4 offers. The learner's need picks the form: lessons to learn to see in a new way, modules to learn by making something. Shared parts are blue; the parts where the forms differ are green.</p>
+<pre class="mermaid">
+flowchart LR
+  need["the learner's need<br/>(making.md step 2)"]
+  need -- "to see in a new way" --> L
+  need -- "to learn by making" --> M
+
+  subgraph L["Lessons: one per concept (no program here yet)"]
+    direction LR
+    l1["Idea"] --> l2["Source"] --> l3["Reason<br/>on a real case"] --> l4["Try<br/>in real work"] --> l5["Brings"] --> l6["Must cover"]
+  end
+
+  subgraph M["Modules: one per question (building-with-agents-and-science/)"]
+    direction LR
+    m1["Idea"] --> m2["Concepts<br/>each with its thinker"] --> m3["Sources"] --> m4["Reason<br/>on their own system"] --> m5["Build<br/>a piece of their work"] --> m6["Brings"] --> m7["Must cover"]
+  end
+
+  classDef generic fill:#dbeafe,stroke:#1d4ed8,color:#111
+  classDef specific fill:#dcfce7,stroke:#15803d,color:#111
+  class l1,l5,l6,m1,m6,m7,l3,m4 generic
+  class l2,l4,m2,m3,m5 specific
+  classDef need fill:#fef3c7,stroke:#b45309,color:#111
+  class need need
+  style L fill:#fff,stroke:#999
+  style M fill:#fff,stroke:#999
+</pre>
+<p>Either form: Must cover holds three or four points the source itself stresses; a concept taught in another program is pointed to, not repeated; a module is taken in three parts, listen, build, conclude.</p>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  const d = new URLSearchParams(location.search).get("d");
+  if (d) document.querySelectorAll("section").forEach(s => { if (s.id !== "d" + d) s.classList.add("hide"); });
+  mermaid.initialize({ startOnLoad: false, theme: "default", flowchart: { wrappingWidth: 150 }, themeVariables: { fontSize: "15px" } });
+  mermaid.run().then(() => document.body.classList.add("done"));
+</script>
+</body>
+</html>
