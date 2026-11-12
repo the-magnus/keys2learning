@@ -1,6 +1,9 @@
 # A learner's private files: workbook, diagrams, anything of theirs.
 local/
 
+# Built for a release by development/bundle.py
+dist/
+
 # Operating system and editor files
 .DS_Store
 Thumbs.db

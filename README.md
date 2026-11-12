@@ -26,14 +26,14 @@ You need your own access to an AI model. The program was made and tried with Ant
 
 ### At the desk
 
-1. Clone the repository, or download it as a ZIP and unpack it.
-2. Open the folder in Claude Code.
+1. Start Claude Code in a folder where the program may live, and tell it: "Clone https://github.com/the-magnus/keys2learning and start the tutor."
+2. Or do it by hand: clone the repository, or download it as a ZIP and unpack it, and open the folder in Claude Code.
 3. Say hello. The tutor sees that you have no workbook yet and starts you off: it reads where you stand, names with you what you want to be able to do, and writes `local/workbook.md`. After that, ask for a session.
 
 ### By voice
 
-1. Create a Claude Project and add three files: the program's `about.md` and `textbook.md`, and `programs/tutoring.md`. If you already have a workbook from the desk, add it too.
-2. Paste the text from the program's `voice_tutor.md` as the Project's instructions.
+1. Download the program's voice file from the [latest release](https://github.com/the-magnus/keys2learning/releases/latest), create a Claude Project and add the file to it. If you already have a workbook from the desk, add it too.
+2. Copy the part of the file headed "Instructions to paste" into the Project's instructions.
 3. Start a voice conversation and say hello. Without a workbook, the tutor starts you off and says your workbook's opening at the end: save it as `workbook.md` and add it to the Project. At the end of each later session it says a progress summary. Copy it into your workbook yourself: the Project can't write files.
 
 ### As you go
