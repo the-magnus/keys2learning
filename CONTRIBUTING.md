@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for wanting to help. keys2learning is at version 0.1 and one person maintains it, so answers can take a while.
+Thank you for wanting to help. One person maintains keys2learning, so answers can take a while.
 
 ## What helps most
 
