@@ -2,6 +2,17 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
 
+## [0.4.0] - 2026-11-12
+
+### Changed
+
+1. Module 4, "Agents as team members", is split in two, since it held two subjects and its Build asked for two pieces. Module 4 keeps working with an agent as a team member: joint activity, the ten challenges, when a quick judgement can be trusted, and the coupled system. The new module 5, "Building around the model", takes context as a scarce resource, tests as the agent's feedback, engineering the system around the model, and rules as constraints. No concept, source or Must cover point was added or removed; the new module's Idea, Reason and Brings are new text.
+2. The program has seven modules. "Seeing it at a glance" is now module 6 and "Staying well in it" module 7; earlier entries in this file use the old numbers. A workbook that names modules 5 or 6 by number means the old ones.
+
+### Added
+
+1. The textbook's overview says how many listening sittings each module takes, estimated from its number of concepts.
+
 ## [0.3.0] - 2026-11-12
 
 ### Changed

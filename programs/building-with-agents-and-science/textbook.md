@@ -2,7 +2,7 @@
 
 *Don't panic: a hitchhiker's guide*
 
-The textbook: six modules. What the program is and why is in `about.md`, how a voice session runs in `../tutoring.md`, a learner's progress in their `workbook.md`, under `local/`. Checked 2026-11-11 by web search, mostly against secondary summaries, and every module again 2026-11-12; a point marked (unconfirmed) is from the tutor's knowledge, not found in a source that day, and a point marked (the tutor's link) joins two sources in a way neither of them does. Modules 3 and 6 were extended on 2026-11-12 and checked that day against institute pages and summaries, not against the books. Check a module's unconfirmed points before it is taught.
+The textbook: seven modules. What the program is and why is in `about.md`, how a voice session runs in `../tutoring.md`, a learner's progress in their `workbook.md`, under `local/`. Checked 2026-11-11 by web search, mostly against secondary summaries, and every module again 2026-11-12; a point marked (unconfirmed) is from the tutor's knowledge, not found in a source that day, and a point marked (the tutor's link) joins two sources in a way neither of them does. Modules 3 and 7 were extended on 2026-11-12 and checked that day against institute pages and summaries, not against the books. Check a module's unconfirmed points before it is taught.
 
 Each source is marked with the kind of evidence it is, so a claim can be weighed by what stands behind it (module 1, concept 8):
 1. **Review:** a systematic review or meta-analysis of many studies.
@@ -25,12 +25,15 @@ Each module has the same parts:
 7. **Must cover:** the points the sources themselves stress; the tutor makes sure each lands, and the workbook records which did.
 
 ## Overview
-1. Which kind of work is this? (Snowden, Sarasvathy; Dybå and Dingsøyr)
-2. What is worth doing? (Rumelt, Rother)
-3. The road (Goldratt and Dettmer; Forsgren and DORA)
-4. Agents as team members (Klein, Woods and colleagues; Kahneman; the evidence on AI and tests; the craft of agentic engineering)
-5. Seeing it at a glance (Shneiderman, Tufte)
-6. Staying well in it (Sarasvathy, Klein)
+1. Which kind of work is this? (Snowden, Sarasvathy; Dybå and Dingsøyr): three or four sittings.
+2. What is worth doing? (Rumelt, Rother): two sittings.
+3. The road (Goldratt and Dettmer; Forsgren and DORA): two or three sittings.
+4. Agents as team members (Klein, Woods and colleagues; Kahneman): two sittings.
+5. Building around the model (the evidence on AI and tests; the craft of agentic engineering): two sittings.
+6. Seeing it at a glance (Shneiderman, Tufte): two sittings.
+7. Staying well in it (Sarasvathy, Klein): two or three sittings.
+
+A sitting is one listening session with the tutor, which teaches two or three concepts. The counts are an estimate from the number of concepts: no module has been timed yet. The build takes its own sessions at the desk.
 
 ## 1. Which kind of work is this?
 1. **Idea:** work differs in kind. Where cause and effect can be known in advance, plan or analyse; where they show only in hindsight, probe. A system that treats all work one way fails for part of it.
@@ -94,29 +97,38 @@ Each module has the same parts:
    5. Small steps give fast feedback; with AI, which makes large changes easy, keeping them small matters more, not less.
 
 ## 4. Agents as team members
-1. **Idea:** an agent that does a task is automation; one that can be worked with is a team member. That takes shared understanding kept up on both sides, and an agent whose state can be seen, whose course can be changed and whose behaviour can be foreseen. For a language model, part of this is built around the model, not asked of it.
+1. **Idea:** an agent that does a task is automation; one that can be worked with is a team member. That takes shared understanding kept up on both sides, and an agent whose state can be seen, whose course can be changed and whose behaviour can be foreseen.
 2. **Concepts:**
    1. **Joint activity and common ground** (Klein, Feltovich, Bradshaw, Woods): working together rests on an agreement to work toward shared goals and on common ground, what each party knows the other knows, which must be kept up and repaired as the work goes.
    2. **Ten challenges for a team player** (Klein, Woods, Bradshaw, Hoffman, Feltovich): among them, an agent must be reasonably predictable and able to predict others, and its intentions and actions must be easy for others to read; also that it can be directed, and that it makes its status obvious.
    3. **When a quick judgement can be trusted** (Kahneman and Klein): only where the environment is regular and the judge has learned it with rapid, clear feedback; confidence is no guide. Held up to a model's fluent output, the same question applies (the tutor's link). Measured with AI tools: in a randomised trial, 16 experienced open-source developers took 19% longer with AI on 246 tasks, yet afterwards believed it had made them 20% faster (METR, 2025).
-   4. **Context is a scarce resource** (Anthropic): a model has a finite attention budget, so the aim is the smallest set of high-signal tokens that makes the wanted outcome likely; curation happens every time something is passed to the model.
-   5. **Tests are the agent's feedback** (Mathews and Nagappan; Fucci and colleagues): given tests along with the problem, models solved 12.0% and 8.5% more problems on two benchmarks, and feeding failing tests back added about 3% more. For people, the evidence on test-driven development is weaker: a meta-analysis of 27 studies found a small gain in quality and little or none in productivity, and a study of 39 professionals found the gain came from short, steady cycles, while whether the test was written first "had no important influence". The tutor's link: a test is a specification the agent can run, and the rapid, clear feedback that concept 3 asks for.
-   6. **Engineer the system around the model** (Krivitsky, *Professional Agentic Product Engineering Guide*): a ladder from the prompt to the plan, verification, rules enforced by the harness (the guide's "Enforce"), orchestration and supervision; climb only as far as the work needs. Concept 5 gives the evidence for its verification step.
-   7. **Rules as constraints** (the tutor's link to module 1): a rule for an agent is a constraint. A governing one sets a limit the harness enforces; an enabling one gives the agent a way to act well in context.
-   8. **A coupled system:** the person's attention and the system's ease depend on each other. A system that is easier to read and steer takes less of the person, who then holds up less of the work (the tutor's link to module 3's constraint).
-3. **Sources:** Klein, Woods, Bradshaw, Hoffman and Feltovich (2004), "Ten Challenges for Making Automation a 'Team Player' in Joint Human-Agent Activity", *IEEE Intelligent Systems* 19(6), 91–95, [record](https://archive.cps-vo.org/node/62405) (theory), [summary](https://blog.acolyer.org/2020/01/10/ten-challenges-for-automation/) (summary); Klein, Feltovich, Bradshaw and Woods (2005), "Common Ground and Coordination in Joint Activity", in Rouse and Boff (eds.), *Organizational Simulation*, Wiley, chapter 6 (theory); Kahneman and Klein (2009), "Conditions for intuitive expertise: a failure to disagree", *American Psychologist* 64(6), 515–526 (theory, from two research traditions); Becker, Rush, Barnes and Rein, METR (2025), "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", [arXiv 2507.09089](https://arxiv.org/abs/2507.09089) (trial, 16 developers, early-2025 models); Mathews and Nagappan (2024), "Test-Driven Development for Code Generation", [arXiv 2402.13521](https://arxiv.org/abs/2402.13521), section 4.2 (benchmark, function-level tasks); Rafique and Mišić (2013), "The Effects of Test-Driven Development on External Quality and Productivity: A Meta-Analysis", *IEEE Transactions on Software Engineering* 39(6), 835–856 (review; abstract only); Fucci, Erdogmus, Turhan, Oivo and Juristo (2017), "A Dissection of the Test-Driven Development Process", *IEEE Transactions on Software Engineering* 43(7), 597–614, [arXiv 1611.05994](https://arxiv.org/abs/1611.05994) (study, 82 tasks); Anthropic, [Effective context engineering for AI agents](https://anthropic.com/engineering/effective-context-engineering-for-ai-agents) (practice); Krivitsky, [Professional Agentic Product Engineering Guide (Updated Continuously)](https://github.com/krivitsky/professional-agentic-product-engineering) (practice).
+   4. **A coupled system:** the person's attention and the system's ease depend on each other. A system that is easier to read and steer takes less of the person, who then holds up less of the work (the tutor's link to module 3's constraint).
+3. **Sources:** Klein, Woods, Bradshaw, Hoffman and Feltovich (2004), "Ten Challenges for Making Automation a 'Team Player' in Joint Human-Agent Activity", *IEEE Intelligent Systems* 19(6), 91–95, [record](https://archive.cps-vo.org/node/62405) (theory), [summary](https://blog.acolyer.org/2020/01/10/ten-challenges-for-automation/) (summary); Klein, Feltovich, Bradshaw and Woods (2005), "Common Ground and Coordination in Joint Activity", in Rouse and Boff (eds.), *Organizational Simulation*, Wiley, chapter 6 (theory); Kahneman and Klein (2009), "Conditions for intuitive expertise: a failure to disagree", *American Psychologist* 64(6), 515–526 (theory, from two research traditions); Becker, Rush, Barnes and Rein, METR (2025), "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", [arXiv 2507.09089](https://arxiv.org/abs/2507.09089) (trial, 16 developers, early-2025 models).
 4. **Reason:** take one recent piece of work with an agent that went wrong or cost you attention. What did each of you believe the other knew? Could you see its state, change its course, foresee what it would do?
-5. **Build:** who does what between the person and the agents: what only the person decides; what an agent must always show (its state, its evidence, a guess marked as a guess); the tests an agent gets before it writes code; which rules the harness enforces instead of the person repeating them; and what enters an agent's context and what stays out.
-6. **Brings:** agents that take less of the builder's attention, and tokens spent where they change the outcome.
+5. **Build:** who does what between the person and the agents: what only the person decides, and what an agent must always show (its state, its evidence, a guess marked as a guess).
+6. **Brings:** agents that take less of the builder's attention.
 7. **Must cover:**
    1. Teamwork needs an agent that is predictable and whose intentions can be read, not only one that is capable.
    2. Common ground is not set once; it drifts and is repaired during the work.
    3. Confidence, a person's or a model's, is no guide to being right; rapid, clear feedback is. Developers who were slower with AI believed they were faster.
-   4. Context is finite: more of it is not better.
-   5. What must always hold is enforced by the system around the model, not requested in the prompt.
-   6. Tests before code help an agent, as a specification it can run; for people, what the evidence supports is short, steady steps, not the order of test and code.
 
-## 5. Seeing it at a glance
+## 5. Building around the model
+1. **Idea:** a language model does not become a team member by being asked to. What must hold is built around it: what enters its context, the tests it is given, and the rules the system enforces.
+2. **Concepts:**
+   1. **Context is a scarce resource** (Anthropic): a model has a finite attention budget, so the aim is the smallest set of high-signal tokens that makes the wanted outcome likely; curation happens every time something is passed to the model.
+   2. **Tests are the agent's feedback** (Mathews and Nagappan; Fucci and colleagues): given tests along with the problem, models solved 12.0% and 8.5% more problems on two benchmarks, and feeding failing tests back added about 3% more. For people, the evidence on test-driven development is weaker: a meta-analysis of 27 studies found a small gain in quality and little or none in productivity, and a study of 39 professionals found the gain came from short, steady cycles, while whether the test was written first "had no important influence". The tutor's link: a test is a specification the agent can run, and the rapid, clear feedback that module 4's concept 3 asks for.
+   3. **Engineer the system around the model** (Krivitsky, *Professional Agentic Product Engineering Guide*): a ladder from the prompt to the plan, verification, rules enforced by the harness (the guide's "Enforce"), orchestration and supervision; climb only as far as the work needs. Concept 2 gives the evidence for its verification step.
+   4. **Rules as constraints** (the tutor's link to module 1): a rule for an agent is a constraint. A governing one sets a limit the harness enforces; an enabling one gives the agent a way to act well in context.
+3. **Sources:** Mathews and Nagappan (2024), "Test-Driven Development for Code Generation", [arXiv 2402.13521](https://arxiv.org/abs/2402.13521), section 4.2 (benchmark, function-level tasks); Rafique and Mišić (2013), "The Effects of Test-Driven Development on External Quality and Productivity: A Meta-Analysis", *IEEE Transactions on Software Engineering* 39(6), 835–856 (review; abstract only); Fucci, Erdogmus, Turhan, Oivo and Juristo (2017), "A Dissection of the Test-Driven Development Process", *IEEE Transactions on Software Engineering* 43(7), 597–614, [arXiv 1611.05994](https://arxiv.org/abs/1611.05994) (study, 82 tasks); Anthropic, [Effective context engineering for AI agents](https://anthropic.com/engineering/effective-context-engineering-for-ai-agents) (practice); Krivitsky, [Professional Agentic Product Engineering Guide (Updated Continuously)](https://github.com/krivitsky/professional-agentic-product-engineering) (practice).
+4. **Reason:** take one rule you have told an agent more than once, and one piece of work where the agent had no way to check itself. What could the system enforce or test, so that you need not say it again? What was in the agent's context that it did not need?
+5. **Build:** what the system gives an agent and holds it to: the tests an agent gets before it writes code; which rules the harness enforces instead of the person repeating them; and what enters an agent's context and what stays out.
+6. **Brings:** tokens spent where they change the outcome, and rules the builder no longer repeats.
+7. **Must cover:**
+   1. Context is finite: more of it is not better.
+   2. What must always hold is enforced by the system around the model, not requested in the prompt.
+   3. Tests before code help an agent, as a specification it can run; for people, what the evidence supports is short, steady steps, not the order of test and code.
+
+## 6. Seeing it at a glance
 1. **Idea:** a wall of text hides the work. A view earns its place by showing the whole first and the detail only when asked for.
 2. **Concepts:**
    1. **The visual information-seeking mantra** (Shneiderman): overview first, zoom and filter, then details on demand. His seven tasks: overview, zoom, filter, details on demand, relate, history, extract.
@@ -132,7 +144,7 @@ Each module has the same parts:
    2. Ink that carries no data is removed.
    3. Comparison needs things side by side in the same form.
 
-## 6. Staying well in it
+## 7. Staying well in it
 1. **Idea:** the builder is part of the system. A store that holds only what blocks keeps attention narrow; means, surprises and a limit on losses keep the builder creative and in the game.
 2. **Concepts:**
    1. **Bird in hand** (Sarasvathy): start with what you have: who you are, what you know, whom you know. Possibilities originate from these means, and goals are adapted as the work gives feedback. Sarasvathy found the pattern by having 27 expert entrepreneurs think aloud through the same ten questions of building a venture. For the builder, the means include the agents, the tools and the work already done (the tutor's link).
