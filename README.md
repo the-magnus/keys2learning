@@ -6,7 +6,7 @@ Learning programs taught by an AI tutor. A program gathers the thinkers whose re
 
 ## What is here
 
-1. **One program:** [Building with agents and science](programs/building-with-agents-and-science/about.md). Six modules for someone who builds a system in which they and AI agents work toward targets. Each module ends in a piece of your own system.
+1. **One program:** [Building with agents and science: Don't panic, a hitchhiker's guide](programs/building-with-agents-and-science/about.md). Six modules for someone who builds a system in which they and AI agents work toward targets. Each module ends in a piece of your own system.
 2. **How a session runs:** [`programs/tutoring.md`](programs/tutoring.md). The tutor follows it in every session. It has three styles: interactive, podcast and trialogue.
 3. **How a program is made:** [`development/making.md`](development/making.md), a guide. [`development/notes.md`](development/notes.md) records how the program came to be and who decided what. [`development/index.html`](development/index.html) has two diagrams of the structure.
 4. **Rules for the agent:** [`CLAUDE.md`](CLAUDE.md). A coding agent that opens this folder reads them and acts as the tutor.

@@ -1,5 +1,7 @@
 # Building with agents and science
 
+*Don't panic: a hitchhiker's guide*
+
 The textbook: six modules. What the program is and why is in `about.md`, how a voice session runs in `../tutoring.md`, a learner's progress in their `workbook.md`, under `local/`. Checked 2026-11-11 by web search, mostly against secondary summaries, and every module again 2026-11-12; a point marked (unconfirmed) is from the tutor's knowledge, not found in a source that day, and a point marked (the tutor's link) joins two sources in a way neither of them does. Modules 3 and 6 were extended on 2026-11-12 and checked that day against institute pages and summaries, not against the books. Check a module's unconfirmed points before it is taught.
 
 Each source is marked with the kind of evidence it is, so a claim can be weighed by what stands behind it (module 1, concept 8):

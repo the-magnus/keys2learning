@@ -1,9 +1,13 @@
 # Building with agents and science
 
+*Don't panic: a hitchhiker's guide*
+
 What the program is and why. The modules are in `textbook.md`; a learner's starting point and progress in their `workbook.md`, under `local/`; how a voice session runs, in `../tutoring.md`.
 
 ## Why
 For someone who designs and builds a system in which they and AI agents work toward targets and challenges: spending tokens well, being better for the work themselves, and using AI fully.
+
+Don't panic: the domains of reality are many and some of them are unordered, so no map is complete. The program is a guide for travelling them, not a rulebook; module 6 is about staying well on the way, with an affordable loss decided at each step.
 
 ## The science
 Six questions the builder of such a system must answer, each with the thinkers whose research answers it best. Learn the thinkers who change how one sees; the techniques are left to the AI. Each claim is weighed by the evidence behind it, and the textbook marks each source's kind: review, trial, study, benchmark, theory, practice or summary.
