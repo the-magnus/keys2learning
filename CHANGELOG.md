@@ -2,7 +2,7 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
 
-## [Unreleased]
+## [0.5.0] - 2026-11-12
 
 ### Added
 

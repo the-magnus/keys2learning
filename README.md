@@ -2,7 +2,7 @@
 
 Learning programs taught by an AI tutor. A program gathers the thinkers whose research answers a question you have. The tutor then teaches them on your own work, not on textbook cases. Curated by Keys2Collaboration (K2C).
 
-**Version 0.4:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
+**Version 0.5:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
 
 ## What is here
 
@@ -65,7 +65,7 @@ Not promised, and so far one learner's account. An early learner tried an earlie
 1. **It is young.** The program was made in November 2026, with and for its curator. Nobody has completed it yet, and what it teaches has not been measured.
 2. **The sources were checked against summaries, not the books.** Claude wrote the text under the curator's direction, and checked it by web search, mostly against secondary sources, on the dates the textbook gives. Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached. Before you lean on a claim, read its source; and if you find an error, tell us.
 3. **The tutor is an AI.** It can sound sure and be wrong, and it voices the thinkers in its own words. None of them has reviewed this. Treat what it says as something to test, which is what the program teaches anyway.
-4. **Some things are still done by hand.** A new learner's start has only been tried once, and the start by voice, the progress line and the feedback note not yet at all. The voice tutor's summary is copied into the workbook by hand, and each program writes its own voice tutor.
+4. **Some things are still done by hand.** A new learner's start and the progress line have each been tried once, and the start by voice and the feedback note not yet at all. The voice tutor's summary is copied into the workbook by hand, and each program writes its own voice tutor.
 
 ### The small print
 
