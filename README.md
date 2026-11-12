@@ -22,14 +22,25 @@ A program is four files:
 
 ## How to use it
 
-You need your own access to an AI model. The program was made and tried with Anthropic's Claude: Claude Code at the desk and a Claude Project for voice. Both may cost money.
+You need your own access to an AI model. The program was made and tried with Anthropic's Claude: Claude Code at the desk and a Claude Project for voice. Both may cost money. Read the program's [`about.md`](programs/building-with-agents-and-science/about.md) first, to see if its question is yours.
 
-1. Clone the repository.
-2. Read the program's [`about.md`](programs/building-with-agents-and-science/about.md) to see if its question is yours.
-3. **At the desk:** open the folder in Claude Code and ask the tutor to start your workbook for the program. It reads where you stand, names with you what you want to be able to do, and writes `local/workbook.md` (steps 1, 2 and 6 of `development/making.md`). After that, ask for a session.
-4. **By voice:** create a Claude Project. Add `about.md`, `textbook.md`, your `workbook.md` and `tutoring.md`, and paste the text from `voice_tutor.md` as its instructions. At the end of a session the tutor says a progress summary. Copy it into your workbook yourself: the Project can't write files.
+### At the desk
 
-Each module has three parts: listen (by voice), build (at the desk, with an agent) and conclude. You pick and pace.
+1. Clone the repository, or download it as a ZIP and unpack it.
+2. Open the folder in Claude Code.
+3. Say hello. The tutor sees that you have no workbook yet and starts you off: it reads where you stand, names with you what you want to be able to do, and writes `local/workbook.md`. After that, ask for a session.
+
+### By voice
+
+1. Create a Claude Project and add three files: the program's `about.md` and `textbook.md`, and `programs/tutoring.md`. If you already have a workbook from the desk, add it too.
+2. Paste the text from the program's `voice_tutor.md` as the Project's instructions.
+3. Start a voice conversation and say hello. Without a workbook, the tutor starts you off and says your workbook's opening at the end: save it as `workbook.md` and add it to the Project. At the end of each later session it says a progress summary. Copy it into your workbook yourself: the Project can't write files.
+
+### As you go
+
+1. Each module has three parts: listen (by voice), build (at the desk, with an agent) and conclude. You pick and pace.
+2. The tutor tells you where you stand at the start and the end of each session: how many modules you have built, and how far you are in the one in hand.
+3. When you have built a module, the tutor offers to help you write a short note to us on what worked and what didn't. You send it yourself, or not at all.
 
 ## What to expect, and what not
 
@@ -54,7 +65,7 @@ Not promised, and so far one learner's account. An early learner tried an earlie
 1. **It is young.** The program was made in November 2026, with and for its curator. Nobody has completed it yet, and what it teaches has not been measured.
 2. **The sources were checked against summaries, not the books.** Claude wrote the text under the curator's direction, and checked it by web search, mostly against secondary sources, on the dates the textbook gives. Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached. Before you lean on a claim, read its source; and if you find an error, tell us.
 3. **The tutor is an AI.** It can sound sure and be wrong, and it voices the thinkers in its own words. None of them has reviewed this. Treat what it says as something to test, which is what the program teaches anyway.
-4. **Some things are still done by hand.** A new learner's start has only been tried once. The voice tutor's summary is copied into the workbook by hand, and each program writes its own voice tutor.
+4. **Some things are still done by hand.** A new learner's start has only been tried once, and the start by voice, the progress line and the feedback note not yet at all. The voice tutor's summary is copied into the workbook by hand, and each program writes its own voice tutor.
 
 ### The small print
 

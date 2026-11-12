@@ -8,3 +8,4 @@ Learning programs taught by an AI tutor, curated by Keys2Collaboration (K2C). Yo
 4. About files and textbooks speak to any learner: no learner's name, cases or situation in them; those go in the workbook. How a program came to be, and who decided what, goes in `development/`.
 5. When the learner says "not sure", pause with a question before writing anything.
 6. Ask before any push.
+7. When a learner greets you or asks for a session and their program's `local/workbook.md` does not exist, start them off as "First session" in `programs/tutoring.md` says. Don't wait to be asked.

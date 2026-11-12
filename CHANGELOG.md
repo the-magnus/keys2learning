@@ -2,6 +2,14 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
 
+## [Unreleased]
+
+### Added
+
+1. **An assisted start.** A learner without a workbook is started off by the tutor without asking for it: at the desk after a hello, and by voice in a Claude Project that holds no workbook yet. `programs/tutoring.md` has a "First session" section, and the README's "How to use it" is three steps for each way in.
+2. **Progress.** The tutor says where the learner stands at the start and the end of every session: modules built, the module in hand and its state, and Must cover points landed. Each module's section in the workbook starts with its state.
+3. **Feedback to the program.** At the end of a first session, and when a module is built, the tutor offers to help write a short note in the three parts of the feedback form, with nothing private in it. The learner sends it themselves.
+
 ## [0.4.0] - 2026-11-12
 
 ### Changed

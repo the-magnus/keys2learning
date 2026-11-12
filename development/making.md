@@ -12,4 +12,4 @@ How a learning program is made: a guide, not a rule. The learner's need, named i
 
    Whichever form, Must cover holds three or four points the source itself stresses. A concept already taught in another program is pointed to, not repeated.
 5. **Write the textbook,** and check each lesson or module against a source before it is taught; mark what no source confirmed, and mark each source's kind of evidence (review, trial, study, benchmark, theory, practice or summary), so a claim is weighed by what stands behind it.
-6. **Start the workbook:** Now (what is next, tries or builds open, found so far), Starting point (the learner's baseline and why, from steps 1 and 2), then one section per lesson or module taken.
+6. **Start the workbook:** Now (what is next, tries or builds open, found so far), Starting point (the learner's baseline and why, from steps 1 and 2), then one section per lesson or module taken, each starting with its state (Progress, in `../programs/tutoring.md`).
