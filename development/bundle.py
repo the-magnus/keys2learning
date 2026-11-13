@@ -44,7 +44,10 @@ def bundle(program):
         INSTRUCTIONS.format(title=title),
         "## How to set up\n"
         "1. Create a Claude Project and add this file to the Project's own files, not to a chat.\n"
-        "2. Start a conversation, by voice or text, and say hello. The tutor saves your workbook "
+        "2. Paste this sentence into the Project's instructions: \"You are my tutor. Before your "
+        f"first reply in every conversation, read the file {program.name}.md in this project, and my "
+        "workbook.md if there is one, and follow the file's part tutoring.md.\"\n"
+        "3. Start a conversation, by voice or text, and say hello. The tutor saves your workbook "
         "to the Project where it can; where it can't, it tells you what to save as workbook.md "
         "and add to the Project.",
     ]

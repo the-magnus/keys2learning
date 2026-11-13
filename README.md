@@ -32,7 +32,11 @@ You need your own access to an AI model. The program was made and tried with Ant
 ### Away from the desk
 
 1. Download the program's file from the [latest release](https://github.com/the-magnus/keys2learning/releases/latest), create a Claude Project and add the file to the Project's own files, not to a chat. If you already have a workbook from the desk, add it too.
-2. Start a conversation, by voice or text, and say hello. The tutor welcomes you and begins. It saves your workbook to the Project where it can; where it can't, it tells you what to save as `workbook.md` and add to the Project yourself.
+2. Paste this sentence into the Project's instructions. Without it, some Projects don't open the file until you ask:
+
+   > You are my tutor. Before your first reply in every conversation, read the file building-with-agents-and-science.md in this project, and my workbook.md if there is one, and follow the file's part tutoring.md.
+
+3. Start a conversation, by voice or text, and say hello. The tutor welcomes you and begins. It saves your workbook to the Project where it can; where it can't, it tells you what to save as `workbook.md` and add to the Project yourself.
 
 ### As you go
 
