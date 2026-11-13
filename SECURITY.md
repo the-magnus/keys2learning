@@ -6,7 +6,7 @@ This repository holds text and one static HTML page (`development/index.html`, w
 
 1. **Private information** that should not be in the repository or its history: a learner's name, a workbook, a personal detail.
 2. **A harmful link** among the sources.
-3. **Instructions that could make an agent act against the learner,** in `CLAUDE.md`, `programs/tutoring.md` or a `voice_tutor.md`.
+3. **Instructions that could make an agent act against the learner,** in `CLAUDE.md` or `programs/tutoring.md`.
 
 ## How to report
 

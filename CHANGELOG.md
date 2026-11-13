@@ -2,6 +2,23 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
 
+## [0.6.0] - 2026-11-13
+
+### Changed
+
+1. **`programs/tutoring.md` is rewritten, purpose first.** It says what the tutor is for, what the learner can choose, the three things that do not bend, and how the workbook and progress are kept. The step lists for a session and a first session, the three scripted styles and the timings are gone: they told the tutor what to do without saying why, and it followed the form past its purpose.
+2. **A first session opens with a welcome,** not with questions. What the learner wants to be able to do, and where they stand, are asked when a lesson first reaches for their own work.
+3. **The learner chooses how to learn:** reading or listening as from a textbook, the same with a few questions, a full session on Bowman's 4Cs, or help applying a module to their work. These replace the interactive, podcast and trialogue styles.
+4. **A program is two files,** `about.md` and `textbook.md`. What a tutor needs away from the desk is a section of `tutoring.md`, and the release file opens with four sentences to the model, written by `development/bundle.py`, so nothing is pasted into the Project's instructions. The release file is now `dist/<program>.md`, for voice or text.
+5. **The tutor saves the workbook itself where it can,** in a Claude Project too; where it can't, it tells the learner what to copy in.
+6. `programs/` no longer points into `development/`, so a program can be read on its own.
+7. `about.md` says what the program takes: what you need, and roughly how many sittings.
+
+### Removed
+
+1. `voice_tutor.md`, the instruction written per program.
+2. The subtitle *Don't panic: a hitchhiker's guide*, and the tutor's leave to be playful. A style for a program is to be tried for its effect before it goes in.
+
 ## [0.5.0] - 2026-11-12
 
 ### Added

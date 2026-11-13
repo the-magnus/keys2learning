@@ -10,7 +10,7 @@ body:
     id: tried
     attributes:
       label: What you tried, or what you propose
-      description: The program and module, the style (interactive, podcast or trialogue), and the model or tool you used.
+      description: The program and module, how you took it (listening or reading, with questions, a working session, or applying it to your work), and the model or tool you used.
     validations:
       required: true
   - type: textarea

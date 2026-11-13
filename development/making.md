@@ -1,6 +1,6 @@
 # Making a program
 
-How a learning program is made: a guide, not a rule. The learner's need, named in step 2, guides each choice below, and the topic shows what fits it. A program has four files: `about.md` (what the program is, why, its thinkers, for any learner), `textbook.md` (the lessons or modules), `voice_tutor.md` (the instructions for a Claude Project that tutors by voice) and, in its `local/`, the learner's `workbook.md` (their starting point and progress, private to them). How each session runs is in `../programs/tutoring.md`. Drawn from two programs: an earlier one in the lessons form, not published here (2026-11-03 to 06), and "Building with agents and science" (2026-11-11); the voice tutor is still written per program.
+How a learning program is made: a guide, not a rule. The learner's need, named in step 2, guides each choice below, and the topic shows what fits it. A program has two files, `about.md` (what the program is, why, its thinkers, for any learner) and `textbook.md` (the lessons or modules), and in its `local/` the learner's `workbook.md` (their starting point and progress, private to them). What the tutor is for, in every program, is in `../programs/tutoring.md`. Drawn from two programs: an earlier one in the lessons form, not published here (2026-11-03 to 06), and "Building with agents and science" (2026-11-11).
 
 ## Make a program
 1. **Read where the learner stands,** in two halves: the data half, what their work and words show; the case half, one real case of theirs walked with Klein's Critical Decision Method before the reading colours it.
@@ -12,4 +12,4 @@ How a learning program is made: a guide, not a rule. The learner's need, named i
 
    Whichever form, Must cover holds three or four points the source itself stresses. A concept already taught in another program is pointed to, not repeated.
 5. **Write the textbook,** and check each lesson or module against a source before it is taught; mark what no source confirmed, and mark each source's kind of evidence (review, trial, study, benchmark, theory, practice or summary), so a claim is weighed by what stands behind it.
-6. **Start the workbook:** Now (what is next, tries or builds open, found so far), Starting point (the learner's baseline and why, from steps 1 and 2), then one section per lesson or module taken, each starting with its state (Progress, in `../programs/tutoring.md`).
+6. **Start the workbook:** Now (what is next, tries or builds open, found so far), Starting point (the learner's baseline and why, from steps 1 and 2), then one section per lesson or module taken, each starting with its state (The workbook and progress, in `../programs/tutoring.md`).

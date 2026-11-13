@@ -37,12 +37,11 @@ flowchart TB
   end
 
   subgraph prog["programs/: what a learner meets"]
-    tutoring["tutoring.md<br/>how every session runs, the styles"]
+    tutoring["tutoring.md<br/>what the tutor is for, in every program"]
     subgraph one["one program, such as building-with-agents-and-science/"]
       direction LR
       about["about.md<br/>what, why, the thinkers"]
       textbook["textbook.md<br/>lessons or modules"]
-      voice["voice_tutor.md<br/>the Claude Project's instructions"]
     end
     subgraph local["its local/: git-ignored"]
       workbook["workbook.md<br/>one learner's start and progress"]
@@ -60,7 +59,7 @@ flowchart TB
   classDef specific fill:#dcfce7,stroke:#15803d,color:#111
   classDef private fill:#e5e7eb,stroke:#4b5563,color:#111
   class rules,making,tutoring generic
-  class notes,about,textbook,voice specific
+  class notes,about,textbook specific
   class workbook private
   style dev fill:#fff,stroke:#999
   style prog fill:#fff,stroke:#999
@@ -70,7 +69,7 @@ flowchart TB
 <table>
 <tr><th></th><th>Generic</th><th>Specific</th></tr>
 <tr><th>Making (<code>development/</code>)</th><td><code>making.md</code>, a guide</td><td><code>notes.md</code>, a section per program</td></tr>
-<tr><th>Running (<code>programs/</code>)</th><td><code>tutoring.md</code></td><td><code>about.md</code>, <code>textbook.md</code>, <code>voice_tutor.md</code></td></tr>
+<tr><th>Running (<code>programs/</code>)</th><td><code>tutoring.md</code></td><td><code>about.md</code>, <code>textbook.md</code></td></tr>
 <tr><th>The learner's (<code>local/</code>)</th><td></td><td><code>workbook.md</code> and anything beside it</td></tr>
 </table>
 </section>

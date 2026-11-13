@@ -2,27 +2,26 @@
 
 Learning programs taught by an AI tutor. A program gathers the thinkers whose research answers a question you have. The tutor then teaches them on your own work, not on textbook cases. Curated by Keys2Collaboration (K2C).
 
-**Version 0.5:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
+**Version 0.6:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
 
 ## What is here
 
-1. **One program:** [Building with agents and science: Don't panic, a hitchhiker's guide](programs/building-with-agents-and-science/about.md). Seven modules for someone who builds a system in which they and AI agents work toward targets. Each module ends in a piece of your own system.
-2. **How a session runs:** [`programs/tutoring.md`](programs/tutoring.md). The tutor follows it in every session. It has three styles: interactive, podcast and trialogue.
+1. **One program:** [Building with agents and science](programs/building-with-agents-and-science/about.md). Seven modules for someone who builds a system in which they and AI agents work toward targets. Each module ends in a piece of your own system.
+2. **What the tutor is for:** [`programs/tutoring.md`](programs/tutoring.md), the same in every program. It is short, and not a script: the tutor decides what is best for you.
 3. **How a program is made:** [`development/making.md`](development/making.md), a guide. [`development/notes.md`](development/notes.md) records how the program came to be and who decided what. [`development/index.html`](development/index.html) has two diagrams of the structure.
 4. **Rules for the agent:** [`CLAUDE.md`](CLAUDE.md). A coding agent that opens this folder reads them and acts as the tutor.
 
-A program is four files:
+A program is two files, and your workbook:
 
 | File | What it holds |
 |---|---|
 | `about.md` | What the program is, why, and its thinkers |
 | `textbook.md` | The lessons or modules, with sources |
-| `voice_tutor.md` | Instructions for a tutor you talk with |
 | `local/workbook.md` | Your starting point and progress. Private, and never in git |
 
 ## How to use it
 
-You need your own access to an AI model. The program was made and tried with Anthropic's Claude: Claude Code at the desk and a Claude Project for voice. Both may cost money. Read the program's [`about.md`](programs/building-with-agents-and-science/about.md) first, to see if its question is yours.
+You need your own access to an AI model. The program was made and tried with Anthropic's Claude: Claude Code at the desk and a Claude Project away from it, by voice or text. Both may cost money. Read the program's [`about.md`](programs/building-with-agents-and-science/about.md) first, to see if its question is yours.
 
 ### At the desk
 
@@ -30,15 +29,14 @@ You need your own access to an AI model. The program was made and tried with Ant
 2. Or do it by hand: clone the repository, or download it as a ZIP and unpack it, and open the folder in Claude Code.
 3. Say hello. The tutor sees that you have no workbook yet and starts you off: it reads where you stand, names with you what you want to be able to do, and writes `local/workbook.md`. After that, ask for a session.
 
-### By voice
+### Away from the desk
 
-1. Download the program's voice file from the [latest release](https://github.com/the-magnus/keys2learning/releases/latest), create a Claude Project and add the file to it. If you already have a workbook from the desk, add it too.
-2. Copy the part of the file headed "Instructions to paste" into the Project's instructions.
-3. Start a voice conversation and say hello. Without a workbook, the tutor starts you off and says your workbook's opening at the end: save it as `workbook.md` and add it to the Project. At the end of each later session it says a progress summary. Copy it into your workbook yourself: the Project can't write files.
+1. Download the program's file from the [latest release](https://github.com/the-magnus/keys2learning/releases/latest), create a Claude Project and add the file to the Project's own files, not to a chat. If you already have a workbook from the desk, add it too.
+2. Start a conversation, by voice or text, and say hello. The tutor welcomes you and begins. It saves your workbook to the Project where it can; where it can't, it tells you what to save as `workbook.md` and add to the Project yourself.
 
 ### As you go
 
-1. Each module has three parts: listen (by voice), build (at the desk, with an agent) and conclude. You pick and pace.
+1. Each module has three parts: listen or read (with the tutor), build (at the desk, with an agent) and conclude. You pick and pace.
 2. The tutor tells you where you stand at the start and the end of each session: how many modules you have built, and how far you are in the one in hand.
 3. When you have built a module, the tutor offers to help you write a short note to us on what worked and what didn't. You send it yourself, or not at all.
 
@@ -47,7 +45,7 @@ You need your own access to an AI model. The program was made and tried with Ant
 ### What you get
 
 1. **You learn on your own work.** The tutor reads where you stand and teaches each concept on the system you are building, not on textbook cases. Each module ends in a working piece of that system.
-2. **You learn where you are.** By voice while you drive or walk, at the desk with an agent, or both. Hear a module as a podcast, talk it through, or listen to the thinkers argue it out in a trialogue.
+2. **You learn where you are.** By voice while you drive or walk, at the desk with an agent, or both. Read or listen to a module as from a textbook, take it with questions along the way, work it through in a full session, or get help applying it to your work.
 3. **You learn from the people who did the research.** Each concept names its thinker and where to read them. The tutoring itself follows published methods: Bowman's 4Cs, retrieval practice and deliberate practice.
 4. **You can see what each claim stands on.** Every source is marked as a review, trial, study, benchmark, theory, practice or summary. Points that were not found in a source are marked *(unconfirmed)*, and a link the tutor makes between two sources is marked *(the tutor's link)*. Few courses tell you this much.
 5. **Your workbook stays yours.** It lives in a `local/` folder that git ignores.
@@ -65,7 +63,7 @@ Not promised, and so far one learner's account. An early learner tried an earlie
 1. **It is young.** The program was made in November 2026, with and for its curator. Nobody has completed it yet, and what it teaches has not been measured.
 2. **The sources were checked against summaries, not the books.** Claude wrote the text under the curator's direction, and checked it by web search, mostly against secondary sources, on the dates the textbook gives. Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached. Before you lean on a claim, read its source; and if you find an error, tell us.
 3. **The tutor is an AI.** It can sound sure and be wrong, and it voices the thinkers in its own words. None of them has reviewed this. Treat what it says as something to test, which is what the program teaches anyway.
-4. **Some things are still done by hand.** A new learner's start and the progress line have each been tried once, and the start by voice and the feedback note not yet at all. The voice tutor's summary is copied into the workbook by hand, and each program writes its own voice tutor.
+4. **The tutor's instructions are new.** They were rewritten on 2026-11-13, after a run through all seven modules. So far they have been tried in scripted starts on a small model and in one real start in a Claude Project, not through a whole module. In that Project, on a paid plan, the tutor saved the workbook itself; whether it can on the free plan is not confirmed, and where it can't, you copy it in by hand.
 
 ### The small print
 
