@@ -2,6 +2,25 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
 
+## [0.7.0] - 2026-11-13
+
+### Added
+
+1. **A thread for every module:** a new part, after the Idea, that says how the module's thinkers answer its question together. A learner had found the thinkers of module 1 loosely connected.
+2. **Four stories from the thinkers themselves,** each checked on a source's own page or marked as from summaries: Snowden's children's party and Sarasvathy's kitchen in module 1, Rumelt's moon landing in module 2, and Minard's map in module 6.
+
+### Changed
+
+1. **No point is marked unconfirmed any more.** Rother's target condition now follows his *Improvement Kata Handbook*. Dettmer's eight Categories of Legitimate Reservation are listed from chapter 1 of his book. That a problem can sit in many domains follows the Cynefin wiki.
+2. Module 1: "one manages the constraints, not the outcome" had no source, and the Cynefin wiki keeps "manage the constraints" for the Theory of Constraints. It now reads: constraints bias the system; they don't fix what it does.
+3. **Module 5's third concept is rebuilt around the idea, not one guide.** "What must hold is built around the model" now rests first on Birgitta Böckeler's guides and sensors, computational or inferential, with Alexey Krivitsky's ladder and Anthropic's advice for how far to go, and says that practitioners agreeing is not evidence.
+
+### Known gaps
+
+1. Stories looked for and not confirmed, so left out: Snowden's engine and rainforest, the crux as a climbing term, and Kahneman and Klein's examples.
+2. Modules 6 and 7 still rest on theory alone; studies that test Tufte, and critiques of effectuation, are not yet in the textbook.
+3. OpenAI's account of harness engineering could not be read, and is not cited.
+
 ## [0.6.0] - 2026-11-13
 
 ### Changed

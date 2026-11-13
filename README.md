@@ -2,7 +2,7 @@
 
 Learning programs taught by an AI tutor. A program gathers the thinkers whose research answers a question you have. The tutor then teaches them on your own work, not on textbook cases. Curated by Keys2Collaboration (K2C).
 
-**Version 0.6:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
+**Version 0.7:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
 
 ## What is here
 
@@ -61,7 +61,7 @@ Not promised, and so far one learner's account. An early learner tried an earlie
 ### Where it is still thin
 
 1. **It is young.** The program was made in November 2026, with and for its curator. Nobody has completed it yet, and what it teaches has not been measured.
-2. **The sources were checked against summaries, not the books.** Claude wrote the text under the curator's direction, and checked it by web search, mostly against secondary sources, on the dates the textbook gives. Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached. Before you lean on a claim, read its source; and if you find an error, tell us.
+2. **The sources were checked against summaries, not the books.** Claude wrote the text under the curator's direction, and checked it by web search, mostly against secondary sources, on the dates the textbook gives. Dettmer's book beyond its first chapter, Goldratt's own text, Sarasvathy's 2001 paper and Klein's full article were not reached. Before you lean on a claim, read its source; and if you find an error, tell us.
 3. **The tutor is an AI.** It can sound sure and be wrong, and it voices the thinkers in its own words. None of them has reviewed this. Treat what it says as something to test, which is what the program teaches anyway.
 4. **The tutor's instructions are new.** They were rewritten on 2026-11-13, after a run through all seven modules. So far they have been tried in scripted starts on a small model and in one real start in a Claude Project, not through a whole module. In that Project, on a paid plan, the tutor saved the workbook itself; whether it can on the free plan is not confirmed, and where it can't, you copy it in by hand.
 

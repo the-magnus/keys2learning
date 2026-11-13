@@ -8,7 +8,7 @@ How a learning program is made: a guide, not a rule. The learner's need, named i
 3. **Elicit the thinkers** who change how they see it; leave the techniques to the AI. Take as many as the need calls for: three suit one way of seeing, and a broader need, such as the questions a builder must answer, may want a few for each question. Thinkers who pull against each other are a strength.
 4. **Choose the form** that fits how the learner will use it. Two forms so far:
    1. **Lessons,** one per key concept, each with Idea, Source, Reason (on a real case of the learner's), Try (in real work), Brings, and Must cover. They suit learning to see in a new way.
-   2. **Modules,** one per question, each with Idea, Concepts, Sources, Reason, Build (a piece of the learner's own work), Brings, and Must cover. They suit learning by making something, with more practice than lessons give.
+   2. **Modules,** one per question, each with Idea, Thread (how its thinkers answer the question together), Concepts, Sources, Reason, Build (a piece of the learner's own work), Brings, and Must cover. They suit learning by making something, with more practice than lessons give.
 
    Whichever form, Must cover holds three or four points the source itself stresses. A concept already taught in another program is pointed to, not repeated.
 5. **Write the textbook,** and check each lesson or module against a source before it is taught; mark what no source confirmed, and mark each source's kind of evidence (review, trial, study, benchmark, theory, practice or summary), so a claim is weighed by what stands behind it.
