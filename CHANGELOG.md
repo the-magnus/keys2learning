@@ -2,11 +2,11 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and a version is two numbers, such as 0.8: the second goes up by one with each release, as far as it needs to. Releases up to 0.7.0 were written with a third number, which was always zero. Before 1.0, any release may change files and formats.
 
-## [Unreleased]
+## [0.8] - 2026-11-13
 
 ### Fixed
 
-1. **Setting up a Claude Project needs one pasted sentence after all.** Versions 0.6 and 0.7 said to add the file and say hello. In a Project that does not load its files until they are asked for, the tutor then answered as an ordinary assistant. The README and the built file now give one sentence to paste into the Project's instructions.
+1. **Setting up a Claude Project needs one pasted sentence after all.** Versions 0.6 and 0.7 said to add the file and say hello. In a Project that does not load its files until they are asked for, the tutor then answered as an ordinary assistant. The README and the built file now give one sentence to paste into the Project's instructions. Tried once in a new Project: with the sentence in place, the tutor read the file and welcomed the learner in its first reply.
 
 ## [0.7.0] - 2026-11-13
 

@@ -2,7 +2,7 @@
 
 Learning programs taught by an AI tutor. A program gathers the thinkers whose research answers a question you have. The tutor then teaches them on your own work, not on textbook cases. Curated by Keys2Collaboration (K2C).
 
-**Version 0.7:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
+**Version 0.8:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
 
 ## What is here
 
