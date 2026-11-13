@@ -28,7 +28,7 @@ INSTRUCTIONS = (
 
 def version():
     """The newest released version in CHANGELOG.md."""
-    found = re.search(r"^## \[(\d+\.\d+\.\d+)\]", (ROOT / "CHANGELOG.md").read_text(), re.M)
+    found = re.search(r"^## \[(\d+\.\d+(?:\.\d+)?)\]", (ROOT / "CHANGELOG.md").read_text(), re.M)
     if not found:
         sys.exit("no released version found in CHANGELOG.md")
     return found.group(1)

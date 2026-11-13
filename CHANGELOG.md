@@ -1,6 +1,6 @@
 # Changelog
 
-Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Before 1.0, any release may change files and formats.
+Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and a version is two numbers, such as 0.8: the second goes up by one with each release, as far as it needs to. Releases up to 0.7.0 were written with a third number, which was always zero. Before 1.0, any release may change files and formats.
 
 ## [0.7.0] - 2026-11-13
 
