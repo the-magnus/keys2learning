@@ -8,7 +8,7 @@ Learning programs taught by an AI tutor. A program gathers the thinkers whose re
 
 1. **One program:** [Building with agents and science](programs/building-with-agents-and-science/about.md). Seven modules for someone who builds a system in which they and AI agents work toward targets. Each module ends in a piece of your own system.
 2. **What the tutor is for:** [`programs/tutoring.md`](programs/tutoring.md), the same in every program. It is short, and not a script: the tutor decides what is best for you.
-3. **How a program is made:** [`development/making.md`](development/making.md), a guide. [`development/notes.md`](development/notes.md) records how the program came to be and who decided what. [`development/index.html`](development/index.html) has two diagrams of the structure.
+3. **How a program is made:** [`development/making.md`](development/making.md), a guide. [`development/notes.md`](development/notes.md) records how far the sources were checked and what was decided against, and why. [`development/index.html`](development/index.html) has two diagrams of the structure.
 4. **Rules for the agent:** [`CLAUDE.md`](CLAUDE.md). A coding agent that opens this folder reads them and acts as the tutor.
 
 A program is two files, and your workbook:

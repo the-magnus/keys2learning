@@ -25,7 +25,7 @@ A new program is a large change. Open an issue first, so we can agree on the lea
 4. **Say how you checked.** If an AI model wrote or checked your change, say so, and say what you read yourself. A claim nobody read in its source is unconfirmed.
 5. **Quote little.** Summarise in your own words, and keep quotes short and attributed.
 6. **Write plainly.** Short sentences, the same word for the same thing, and numbered lists as in the existing files.
-7. How a program came to be, and who decided what, goes in `development/notes.md`, not in the program.
+7. How far a program's sources were checked, and what was decided against and why, goes in `development/notes.md`, not in the program. How it came to be goes in the commit messages.
 
 ## Licence of contributions
 
