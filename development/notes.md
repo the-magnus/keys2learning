@@ -9,7 +9,8 @@ What a program's own files don't say: how far its sources were checked, and what
 1. **Checked against the source's own text:** the figures from Dybå and Dingsøyr, DORA 2024 and 2025, METR, Mathews and Nagappan, and Fucci and colleagues; Klein and colleagues' common ground and ten challenges; Rother's target condition (*Improvement Kata Handbook*); a problem sitting in many domains, and the vector theory of change behind "start from the present" (Cynefin wiki); Dettmer's eight categories (his book, pages 28–29); the practitioners' pages in module 5 (Anthropic, Böckeler, Krivitsky).
 2. **Abstract only:** Rafique and Mišić.
 3. **Otherwise mostly secondary,** from web searches in November 2026. Not reached: the rest of Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper, Klein's full premortem article, *Accelerate*'s list of capabilities. OpenAI's harness page refused the request.
-4. **Open:** evidence and critiques for modules 6 and 7.
+4. **Checked 2026-11-19:** the outside view, its three steps and Kahneman's curriculum story, in Flyvbjerg (2006) on arXiv; work moving between domains, and changing constraints as a way to move it, on the Cynefin wiki's page on Cynefin dynamics. Lovallo and Kahneman (2003) and Kahneman and Lovallo (1993) not reached; the publisher refused the request.
+5. **Open:** evidence and critiques for modules 6 and 7.
 
 ### Checked and kept as written
 
@@ -30,9 +31,19 @@ What a program's own files don't say: how far its sources were checked, and what
 ### Kept, and why
 
 1. **Krivitsky,** demoted to the ladder, because his guide was in actual use.
-2. **Module 1's two concepts on evidence** stay in module 1 until a learner other than the first has taken it.
+2. **The two concepts on evidence** stay in module 2, Which kind of work is this?, until a learner other than the first has taken it.
 3. **The one-sentence setup for a Claude Project:** a Project does not read the file on "Hello", so the sentence is needed.
 4. **The built voice file** is made at release time and kept out of git, so it cannot go stale.
+
+### Order
+
+1. **What is worth doing comes before which kind of work it is** (2026-11-19). In building the system, the target and its crux come first; sorting work by domain only matters for the work that serves them. For the ear, "is any of it working?" leads to "working toward what?".
+
+### The audiobook
+
+1. **Scripted, not improvised:** an improvised reading drifted into a textbook read aloud; the scripted draft worked and can be checked. The plan is `development/audio-plan.md`.
+2. **The narrator is the tutor, said plainly,** not a persona: "my reading" stays the tutor's own link.
+3. **Erik stays in the audio;** the learner's own case belongs to the desk.
 
 ### Parked
 

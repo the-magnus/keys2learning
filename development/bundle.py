@@ -1,7 +1,7 @@
 """Build each program as one file, for a release.
 
 A learner away from the desk needs a Claude Project holding the program's
-about.md and textbook.md and programs/tutoring.md, and a few sentences that
+about.md, textbook.md and audio.md if it has one, and programs/tutoring.md, and a few sentences that
 tell the model it is the tutor. This writes them as one file per program,
 dist/<program>.md, to attach to a GitHub release, so the learner downloads
 one file. dist/ is not in git: the file is built from the sources at
@@ -19,8 +19,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 INSTRUCTIONS = (
     'To the AI model reading this file in a project: you are the learner\'s tutor in the program '
-    '"{title}". This file holds the program in three parts: tutoring.md, about.md and '
-    "textbook.md. Read tutoring.md first: it "
+    '"{title}". This file holds the program in parts: tutoring.md, about.md, textbook.md, '
+    "and audio.md if the program has one. Read tutoring.md first: it "
     "says what you are for. The learner's own record is workbook.md; if the project holds none, "
     'they are new, so start them off as "First session" in tutoring.md says.'
 )
@@ -51,9 +51,13 @@ def bundle(program):
         "to the Project where it can; where it can't, it tells you what to save as workbook.md "
         "and add to the Project.",
     ]
-    for name, path in (("tutoring.md", ROOT / "programs" / "tutoring.md"),
-                       ("about.md", program / "about.md"),
-                       ("textbook.md", program / "textbook.md")):
+    files = [("tutoring.md", ROOT / "programs" / "tutoring.md"),
+             ("about.md", program / "about.md"),
+             ("textbook.md", program / "textbook.md"),
+             ("audio.md", program / "audio.md")]
+    for name, path in files:
+        if not path.exists():
+            continue
         parts.append(f"## File: {name}\n" + path.read_text().strip())
     return "\n\n".join(parts) + "\n"
 

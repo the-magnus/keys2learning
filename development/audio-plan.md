@@ -90,6 +90,10 @@ Words used here: a **module** is a part of the textbook; a **chapter** is the sa
 1. **Path or menu:** the tutor recommends the path (hear, recall, build, conclude) and adapts when the learner asks for something else, as it did on the bus. Treat this as a probe.
 2. **Saves:** in the session the tutor claimed saves it likely couldn't make ("saved your workbook to the project", then "can't update on this call", then "updated", then "saved the prologue to the project"). The tutor should say plainly what it can save in each setting, and never claim a save it hasn't made.
 
+## Status, 2026-11-19
+
+Done: order swapped, the outside view and movement between domains added to the textbook, the whole book drafted in `audio.md` (a prologue and nine episodes, about 5,800 words, roughly 40 minutes at 150 words a minute; episodes run 2½ to 5½ minutes, so a bus ride may take two), `tutoring.md`, `making.md` and `bundle.py` updated. Next: listen (step 3), and a second listener (step 4).
+
 ## 10. Next steps
 
 1. **Decide the order** (7.1), with its building reason, since it decides what chapter one is.
