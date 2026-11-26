@@ -10,7 +10,7 @@ Notable changes to keys2learning. The format follows [Keep a Changelog](https://
 
 ### Known gaps
 
-1. Seen in one Project; that the typed line's save really lands is not yet confirmed.
+1. Seen in one Project. Confirmed once, 2026-11-26: after the whole audiobook was heard in voice mode, a typed line in the same conversation saved it to the workbook.
 
 ## [0.9] - 2026-11-26
 
