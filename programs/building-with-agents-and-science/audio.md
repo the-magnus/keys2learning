@@ -161,7 +161,7 @@ Eliyahu Goldratt, a management thinker, wrote a novel about a factory, called Th
 
 A word on that word. In the last chapter, Snowden's constraints were rules that shape what a system does. Goldratt's constraint is something else: the one place that sets the pace. Same word, two meanings.
 
-Goldratt gives five focusing steps. Find the constraint. Get the most out of it as it is. Then line everything else up behind it. There are two more, about adding capacity and starting over, five in all. To find it, look for where work piles up. It isn't always visible. And it's often not a machine, but a policy: the way things have always been done.
+Goldratt gives five focusing steps. Find the constraint. Get the most out of it as it is. Line everything else up behind it. If that's still not enough, add capacity. And then start again, so that habit doesn't become the next constraint. To find it, look for where work piles up. It isn't always visible. And it's often not a machine, but a policy: the way things have always been done.
 
 My reading: when agents produce work fast, the pile tends to form at the person reviewing it. For Erik, that's the midnight reading.
 
@@ -199,7 +199,21 @@ My reading: the size of a step is how fast the road gives you feedback. A two-th
 
 So he sends it back, asking for smaller pieces. And his evenings get shorter. That one he got right.
 
-Next, Dettmer again, with something he calls the logical glue that holds any reasoning together. They're questions you can ask of any argument, yours or someone else's. Is this actually true? Does this cause really lead to that effect? Could something else explain it? There are eight in all. My reading: a person and an agent can question each other's reasoning by the same rules. When the review agent says a change is safe, Erik can ask it: is that cause enough on its own?
+The first small piece comes back from the review agent. Safe, it says: the tests pass.
+
+Dettmer has a way to question that. He calls it the logical glue that holds any reasoning together: a set of questions you can ask of any argument, yours or someone else's. Erik asks four of them.
+
+What exactly do you mean by safe? Safe to ship, the agent says. Nothing that worked before will break.
+
+Is passing tests enough, on its own, to show that? Only if the tests reach the change.
+
+Could something else explain why they pass? The agent looks again. The tests could pass because they never touch the new code at all.
+
+And if the change really were safe, what else would we expect to see? The old sign-up still working, end to end. Nobody has checked.
+
+So the agent checks. The tests never reach the new code. It writes one that does.
+
+My reading: a person and an agent can question each other's reasoning by the same rules. And an agent can ask them of its own claims, before the person has to.
 
 Dettmer has two more trees, one for tracing today's troubles back to a core problem, and one for dissolving a conflict by finding the hidden assumption behind it. Both are for the desk, when you need them.
 
@@ -215,7 +229,7 @@ He doesn't walk this road alone. So what makes an agent a teammate, rather than 
 
 1. Forsgren, Humble and Kim, *Accelerate* (2018) (study): small batches among the capabilities that predict delivery performance.
 2. DORA, *Accelerate State of DevOps Report 2024* (study: survey): each 25% more AI adoption, an estimated 7.2% less delivery stability. DORA, *State of AI-assisted Software Development 2025* (study: survey of nearly 5,000): AI's benefits depended on small batches, "with a high degree of certainty".
-3. Dettmer's eight Categories of Legitimate Reservation (practice): clarity, entity existence, causality existence, cause sufficiency, additional cause, cause-effect reversal, predicted effect existence, tautology. The Current Reality Tree and the Evaporating Cloud (textbook module 3, concept 6).
+3. Dettmer's eight Categories of Legitimate Reservation (practice): clarity, entity existence, causality existence, cause sufficiency, additional cause, cause-effect reversal, predicted effect existence, tautology. Erik asks clarity, cause sufficiency, additional cause and predicted effect existence; the scene is an illustration, not a finding. The Current Reality Tree and the Evaporating Cloud (textbook module 3, concept 6).
 
 ## Episode 6: Teammates
 
@@ -223,11 +237,11 @@ He doesn't walk this road alone. So what makes an agent a teammate, rather than 
 
 Previously: Erik's road is in order and his steps are small. But every step still passes through him.
 
-One morning his review agent approves a change, confidently. It says the tests pass and the design is consistent. Erik ships it. It breaks the sign-up page. Later he finds out why: the review agent had been working from last week's picture of the project. It didn't know the sign-up page had changed.
+One morning, in a hurry, Erik skips the questions. His review agent approves a change, confidently. It says the tests pass and the design is consistent. Erik ships it. It breaks the sign-up page. Later he finds out why: the review agent had been working from last week's picture of the project. It didn't know the sign-up page had changed.
 
 Gary Klein, who studies how experts decide in the field, and David Woods, who studies how people work with automation, have a name for what went wrong. Working together, they say, rests on two things: an agreement to work toward shared goals, and common ground, meaning what each party knows the other knows. And common ground isn't set once. It drifts as the work goes on, and has to be repaired. Erik's agent hadn't failed at reviewing. Its common ground with him had drifted.
 
-Klein, Woods and colleagues list ten challenges for making automation a team player. Three stand out for Erik. An agent should be predictable, so you can foresee what it does. Its intentions should be easy to read. And you should be able to steer it. Being capable isn't enough. A brilliant agent you can't read or steer is a poor teammate. This is a framework, from researchers in cognitive systems engineering.
+Klein, Woods and colleagues asked what it takes to make automation a team player. Their answer starts with that agreement, which they call a Basic Compact. Every party in it stays predictable, can be steered, keeps the common ground up, and reports its own failures. From there they set out the challenges. An agent should be predictable, so you can foresee what it does. Its intentions should be easy to read. And you should be able to steer it. Being capable isn't enough. A brilliant agent you can't read or steer is a poor teammate. This is a framework, from researchers in cognitive systems engineering.
 
 Then why did Erik trust that confident approval? Kahneman, again, together with Klein, asked when a quick judgement can be trusted. Their answer: only where the environment is regular, and the judge has learned it through rapid, clear feedback. Confidence is no guide. My reading: the same question applies to a model's fluent, confident output.
 
@@ -245,12 +259,14 @@ My reading, and it's an important one: Erik's attention and his system's ease de
 
 So he asks his review agent to state, every time, which version of the project it reviewed. The next drift is caught in a second.
 
+Then he meets another of Klein and Woods' challenges. Told to show its status, the review agent now shows everything: forty comments on a ten-line change. They call this attention management. A team player draws the others to what matters, without flooding them, and without staying silent when it should speak. So Erik asks for the one comment that matters most, first.
+
 But he's repeating himself. Every morning, the same reminders, the same rules, typed again. How does he make what must hold, actually hold?
 
 ### Show notes
 
 1. Klein, Feltovich, Bradshaw and Woods (2005), "Common Ground and Coordination in Joint Activity" (theory).
-2. Klein, Woods, Bradshaw, Hoffman and Feltovich (2004), "Ten Challenges for Making Automation a 'Team Player'" (theory): among them, predictable and able to predict others, intentions easy to read, directable, status obvious.
+2. Klein, Woods, Bradshaw, Hoffman and Feltovich (2004), "Ten Challenges for Making Automation a 'Team Player'" (theory): the Basic Compact and all ten challenges are in the textbook, module 4, concept 2. The episode uses the Compact, predictability, readable intentions, directability and attention management.
 3. Kahneman and Klein (2009), "Conditions for intuitive expertise: a failure to disagree" (theory).
 4. Becker, Rush, Barnes and Rein, METR (2025), arXiv 2507.09089 (trial; sixteen developers, early-2025 models): nineteen percent slower with AI, believed twenty percent faster.
 5. The tutor's links: confidence and a model's output; attention as the constraint, a coupled system.
@@ -299,7 +315,7 @@ Previously: Erik's rules hold without him. But his system has outgrown his view 
 
 Each morning, he opens a status page. It's a wall of text: every task, every agent's log, every comment, in one long scroll. He reads for twenty minutes and still can't say where things stand.
 
-Ben Shneiderman, a pioneer of how people see information on screens, put the answer in a sentence he calls a mantra: overview first, zoom and filter, then details on demand. See the whole. Narrow to what interests you. Only then open the detail. He lists seven tasks a good view supports, overview, zoom and filter among them, seven in all.
+Ben Shneiderman, a pioneer of how people see information on screens, put the answer in a sentence he calls a mantra: overview first, zoom and filter, then details on demand. See the whole. Narrow to what interests you. Only then open the detail.
 
 Edward Tufte, who has spent a career on how to show data well, says what to take away. Most of a graphic's ink, he says, should carry data. Erase the rest. Decoration that carries nothing, or hides what matters, he calls chartjunk: borders, shading, heavy grids, three-D effects. And he says what to put side by side. Small multiples: the same small graphic, repeated, so the eye can compare across them.
 
@@ -333,7 +349,7 @@ Goldratt returns with one last turn. The constraint, he said, isn't always a mac
 
 My reading: in a builder's system, the constraint is often the builder's own attention. Getting the most out of it means not spending it on what an agent or a rule can carry. So Erik goes back over what he reads each night. Half of it, the harness now checks. A quarter, the agents can show him at a glance. What's left is what only he can judge.
 
-Sarasvathy returns too. Remember the cupboards? Starting from what you have was half of it. She found more principles in expert entrepreneurs, and three of them matter here.
+Sarasvathy returns too. Remember the cupboards? Starting from what you have was the first of five principles she found in expert entrepreneurs. Here are three more. The fifth comes at the end.
 
 Affordable loss: at each step, decide what you're willing to lose, rather than chasing what you might gain. My reading: for Erik, losses come in tokens and in attention, and every probe carries one.
 
@@ -357,12 +373,16 @@ What he can do is build the feedback. And looking back, that's what each step wa
 
 Erik still can't feel whether it works. But now he can see it.
 
+And Sarasvathy has one principle left, the fifth. She calls it pilot in the plane. You steer with what you have, together with the people who chose to join and steer with you. Rather than predict the future, or adapt to it, you build it.
+
+My reading: that's where Erik has arrived. He can't predict whether his product will work. But he's steering it, with his four users beside him, and his agents carrying what they can.
+
 That's the book. Everything you've heard is the beginning, not the landing. An idea becomes yours when you use it on your own work. That happens at the desk. When you're there, start with the first question, on your own target: working toward what?
 
 ### Show notes
 
 1. Goldratt and Cox, *The Goal* (1984) (theory): the constraint may be skilled labour; exploit and subordinate.
-2. Read, Sarasvathy, Dew, Wiltbank and Ohlsson, *Effectual Entrepreneurship* (2011) (theory): bird in hand, affordable loss, lemonade, crazy quilt; the study of twenty-seven expert entrepreneurs.
+2. Read, Sarasvathy, Dew, Wiltbank and Ohlsson, *Effectual Entrepreneurship* (2011) (theory): bird in hand, affordable loss, lemonade, crazy quilt; the study of twenty-seven expert entrepreneurs. Pilot in the plane, from the Society for Effectual Action's page on the five principles (summary).
 3. Klein (2007), "Performing a Project Premortem", *Harvard Business Review* (practice); the 30% figure is from a 1989 study, counting reasons, their quality not assessed.
 4. METR (2025) (trial) and Kahneman and Klein (2009) (theory) on the closing question.
-5. The tutor's links: attention as the constraint; losses counted in tokens and attention; the quilt made of people; feedback as the answer to "is it working?".
+5. The tutor's links: attention as the constraint; losses counted in tokens and attention; the quilt made of people; feedback as the answer to "is it working?"; Erik as the pilot.

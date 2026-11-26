@@ -52,7 +52,7 @@ Words used here: a **module** is a part of the textbook; a **chapter** is the sa
 9. **Same word, two meanings:** Snowden's constraints come before Goldratt's. At Goldratt's first mention the narration says they are different things (textbook module 1, Must cover 3).
 10. **Write for the ear:**
     1. Each person gets one handle at first mention ("Snowden, who studies how organisations decide"), then the surname only. About two new names per episode.
-    2. At most three items in a list; otherwise give examples and say "eight in all".
+    2. At most three items in a list. A count is said only when every item is named: a number with items missing sounds like something held back (heard in the second listen, 2026-11-26). A longer list is told as a scene, with Erik doing or asking each item, or sampled without a count; the full list is in the show notes.
     3. Numbers spelled out; quotes set behind "they wrote".
     4. No markdown, brackets or abbreviations in the script: it is read aloud as written.
     5. Progress only at the start and end of a sitting, in one line.
