@@ -2,6 +2,21 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and a version is two numbers, such as 0.8: the second goes up by one with each release, as far as it needs to. Releases up to 0.7.0 were written with a third number, which was always zero. Before 1.0, any release may change files and formats.
 
+## [0.11] - 2026-11-26
+
+### Added
+
+1. **The textbook's missing items:** module 4 now gives all ten of Klein and colleagues' challenges for a team player and the Basic Compact they rest on, from the paper's text; module 7 gains Sarasvathy's fifth principle, Pilot in the Plane, as concept 5, from the Society for Effectual Action's page.
+
+### Changed
+
+1. **The audiobook says no count without its items.** On the second listen, "eight in all", "three stand out" and "seven in all" sounded like something held back. Episode 4 names all five focusing steps; episode 5 tells Dettmer's questions as a scene in which Erik questions his review agent; episode 6 gives the Basic Compact and adds attention management; episode 8 keeps only Shneiderman's mantra; episode 9 ends on Pilot in the Plane. `development/audio-plan.md` holds the rule.
+
+### Known gaps
+
+1. Heard on the second listen: in places the audiobook feels like a smörgåsbord, a taste of many ideas, most where an episode carries four or five thinkers (episodes 5, 7, 8 and 9). The likely fix, one idea per episode lived through in a full scene, is not made yet.
+2. The scripts are about 5,500 words, some 30 minutes at a rough rate of 180 to 220 words a minute, estimated from one earlier listen, not timed; 0.9's "some 40 minutes" was before any timing.
+
 ## [0.10] - 2026-11-26
 
 ### Changed

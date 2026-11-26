@@ -46,6 +46,7 @@ What a program's own files don't say: how far its sources were checked, and what
 2. **The narrator is the tutor, said plainly,** not a persona: "my reading" stays the tutor's own link.
 3. **Erik stays in the audio;** the learner's own case belongs to the desk.
 4. **Saving after voice** (2026-11-26): in one Claude Project on the mobile app, the voice replies could not write the workbook and the text replies in the same conversation could. So the tutor says once that a typed line saves; that a save then really lands was confirmed once the same day, when a typed line after the whole audiobook by voice saved it to the workbook. The tutor's own explanation, a lighter voice version without tools, is left out: it is a model describing itself, not confirmed.
+5. **Smörgåsbord** (2026-11-26, second listen): liked and good enough to listen to, but in places "smörgåsbord", "teaser", "quick overview", most where an episode carries four or five thinkers (5, 7, 8, 9). What worked were scenes in which Erik tries an idea and it costs or saves him something: the race condition, the pile at midnight, the review agent's "safe". Next: one idea per episode lived through, the rest brief, and no pointers that only say there is more.
 
 ### Parked
 
