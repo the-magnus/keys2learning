@@ -10,7 +10,8 @@ What a program's own files don't say: how far its sources were checked, and what
 2. **Abstract only:** Rafique and Mišić.
 3. **Otherwise mostly secondary,** from web searches in November 2026. Not reached: the rest of Dettmer's book, Goldratt's own text, Sarasvathy's 2001 paper, Klein's full premortem article, *Accelerate*'s list of capabilities. OpenAI's harness page refused the request.
 4. **Checked 2026-11-19:** the outside view, its three steps and Kahneman's curriculum story, in Flyvbjerg (2006) on arXiv; work moving between domains, and changing constraints as a way to move it, on the Cynefin wiki's page on Cynefin dynamics. Lovallo and Kahneman (2003) and Kahneman and Lovallo (1993) not reached; the publisher refused the request.
-5. **Open:** evidence and critiques for modules 6 and 7.
+5. **Checked 2026-11-26:** all ten of Klein and colleagues' challenges and the Basic Compact, in the paper's text on Fermat's Library; Sarasvathy's fifth principle, Pilot in the Plane, on the Society for Effectual Action's page on the five principles. A learner had heard the audiobook name counts ("ten challenges", "eight in all") without saying what they were, and the textbook itself held only four of the ten and four of the five.
+6. **Open:** evidence and critiques for modules 6 and 7.
 
 ### Checked and kept as written
 
