@@ -2,7 +2,7 @@
 
 Learning programs taught by an AI tutor. A program gathers the thinkers whose research answers a question you have. The tutor then teaches them on your own work, not on textbook cases. Curated by Keys2Collaboration (K2C).
 
-**Version 0.9:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
+**Version 0.10:** one program so far, and young. [What to expect](#what-to-expect-and-what-not) says what it does well and where it is still thin.
 
 ## What is here
 
@@ -37,7 +37,7 @@ You need your own access to an AI model. The program was made and tried with Ant
 
    > You are my tutor. Before your first reply in every conversation, read the file building-with-agents-and-science.md in this project, and my workbook.md if there is one, and follow the file's part tutoring.md.
 
-3. Start a conversation, by voice or text, and say hello. The tutor welcomes you and begins. It saves your workbook to the Project where it can; where it can't, it tells you what to save as `workbook.md` and add to the Project yourself.
+3. Start a conversation, by voice or text, and say hello. The tutor welcomes you and begins. It saves your workbook to the Project where it can; where it can't, it tells you what to save as `workbook.md` and add to the Project yourself. In the mobile app's voice mode it may not be able to save at all; then type one line in the same conversation afterwards, such as "save my progress".
 
 ### As you go
 

@@ -44,6 +44,7 @@ What a program's own files don't say: how far its sources were checked, and what
 1. **Scripted, not improvised:** an improvised reading drifted into a textbook read aloud; the scripted draft worked and can be checked. The plan is `development/audio-plan.md`.
 2. **The narrator is the tutor, said plainly,** not a persona: "my reading" stays the tutor's own link.
 3. **Erik stays in the audio;** the learner's own case belongs to the desk.
+4. **Saving after voice** (2026-11-26): in one Claude Project on the mobile app, the voice replies could not write the workbook and the text replies in the same conversation could. So the tutor says once that a typed line saves; that a save then really lands is not yet confirmed. The tutor's own explanation, a lighter voice version without tools, is left out: it is a model describing itself, not confirmed.
 
 ### Parked
 

@@ -2,6 +2,16 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and a version is two numbers, such as 0.8: the second goes up by one with each release, as far as it needs to. Releases up to 0.7.0 were written with a third number, which was always zero. Before 1.0, any release may change files and formats.
 
+## [0.10] - 2026-11-26
+
+### Changed
+
+1. **Saving after listening by voice.** In a Claude Project on the mobile app, the tutor in voice mode could not save the workbook, while text in the same conversation could. Where that is so, the tutor now says once, at the end of a sitting, that a line typed afterwards, such as "save my progress", saves what was heard. The README says the same.
+
+### Known gaps
+
+1. Seen in one Project; that the typed line's save really lands is not yet confirmed.
+
 ## [0.9] - 2026-11-26
 
 ### Added
