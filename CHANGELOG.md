@@ -2,6 +2,25 @@
 
 Notable changes to keys2learning. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and a version is two numbers, such as 0.8: the second goes up by one with each release, as far as it needs to. Releases up to 0.7.0 were written with a third number, which was always zero. Before 1.0, any release may change files and formats.
 
+## [0.9] - 2026-11-26
+
+### Added
+
+1. **An audiobook:** `programs/building-with-agents-and-science/audio.md`, a prologue and nine episodes of about one bus ride each, some 40 minutes in all. A made-up builder, Erik, runs through it, and one question carries it from start to end: is any of it working? Each episode marks its evidence lightly in the telling, and has show notes with its sources. The scripts add no claim the textbook doesn't make. The built file includes it.
+2. **The outside view** (Kahneman and Lovallo; Flyvbjerg, checked in his 2006 paper) and **work moving between domains** (Cynefin wiki) in the textbook.
+3. `tutoring.md` on episodes: read a script as written for a listener; in the other ways of learning, its pauses, images and made-up case are there to use.
+
+### Changed
+
+1. **"What is worth doing?" is now module 1,** and "Which kind of work is this?" module 2, so that the work is sorted after deciding what it serves. Cross-references are renumbered.
+2. **After the first listen through,** the tutor ends its reply at each pause in an episode, so the listener ends the pause by saying continue; an ellipsis read aloud was no pause at all. While a learner listens, progress counts episodes heard, at the start and end of a sitting, not "0 of 7 built" after every episode.
+3. The tutor says plainly where it can't save the workbook, instead of claiming a save it didn't make.
+
+### Known gaps
+
+1. The audiobook has been heard through once, by its curator. A second listener is next.
+2. That the tutor really stops at each pause has not been tried yet.
+
 ## [0.8] - 2026-11-13
 
 ### Fixed
