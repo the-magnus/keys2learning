@@ -45,7 +45,7 @@ Words used here: a **module** is a part of the textbook; a **chapter** is the sa
 2. **Choose what the ear gets.** Each chapter carries its module's Must cover points and one strong image; the rest stays in the textbook and show notes. Diagrams that can't be followed by ear (Dettmer's trees, the eight reservation categories) are named and described in a sentence, and left for the desk.
 3. **Vary the template.** The pieces below are tools, not a form for every episode: the opening may be a scene, a thinker's story or a finding; a pause comes where it fits, not always in the same place.
 4. **A short "previously"** opens an episode after a break, to rebuild the thread.
-5. **A pause to think,** with a spoken cue around it ("take a moment… and back"), since on a bus silence sounds like a dropout. It asks the listener to think of their own work, with no answer expected.
+5. **A pause to think,** with a spoken cue around it ("take a moment… and back"), since on a bus silence sounds like a dropout. It asks the listener to think of their own work, with no answer expected. A reply read aloud can't hold silence, so the reply ends at the question and the listener's "continue" ends the pause (heard in the first listen: an ellipsis is read as no pause at all).
 6. **End on the open question itself,** left hanging. Not "That's chapter two", not "next is X".
 7. **The prologue doesn't list the seven questions.** It names the first and promises that each answer raises the next.
 8. **A closing recap of the series** pays off the arc: Erik's attention, the question from the prologue, and how each chapter answered the last one.
@@ -93,6 +93,10 @@ Words used here: a **module** is a part of the textbook; a **chapter** is the sa
 ## Status, 2026-11-19
 
 Done: order swapped, the outside view and movement between domains added to the textbook, the whole book drafted in `audio.md` (a prologue and nine episodes, about 5,800 words, roughly 40 minutes at 150 words a minute; episodes run 2½ to 5½ minutes, so a bus ride may take two), `tutoring.md`, `making.md` and `bundle.py` updated. Next: listen (step 3), and a second listener (step 4).
+
+## Status, 2026-11-26
+
+Heard through once by the author, on the bus: pretty good. Three annoyances, fixed: the pauses ran straight on (now the reply ends at the question); "0 of 7 built" after every episode (now episodes heard, at the start and end of a sitting, in `tutoring.md` and the tutor note in `audio.md`); and Erik at midnight six times (now three beats: prologue, the constraint, the resolution). Next: a second listener (step 4).
 
 ## 10. Next steps
 

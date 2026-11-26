@@ -2,7 +2,7 @@
 
 The program told for the ear, in episodes of about one bus ride. The textbook is the source of truth: the scripts add no claim of their own, and every source is in the show notes. Erik is made up.
 
-For the tutor: read an episode's script aloud as written, without adding headings, lists or progress lines inside it. Say the progress line once before and once after. Offer the show notes when the learner is back at a screen. Listening makes the desk session wanted; it doesn't land points.
+For the tutor: read an episode's script aloud as written, without adding headings, lists or progress lines inside it. A reply read aloud can't hold a silence, so end the reply after each "Take a moment" question, and go on from "And back" when the learner says so: the pause is theirs to end. Between episodes, name the next one and nothing more ("say continue for episode three"); progress is for the start and end of a sitting, and a workbook that can't be saved is said once. Offer the show notes when the learner is back at a screen. Listening makes the desk session wanted; it doesn't land points.
 
 ## Prologue
 
@@ -11,8 +11,6 @@ For the tutor: read an episode's script aloud as written, without adding heading
 Picture a builder. Let's call him Erik. He's made up, but you may recognise him.
 
 Erik has a target: a small product, launched by spring. He has three AI agents. One writes code, one reviews it, and one drafts emails to his first customers. The agents are fast, and the tokens are flowing. Every morning Erik opens his laptop to more work than the day before. And every night, around midnight, he's still there, reading what the agents made, because nothing ships until he has said yes.
-
-Keep that picture of Erik at midnight. We'll come back to it.
 
 Erik has a quiet, nagging feeling. He can't say whether any of it is working.
 
@@ -55,7 +53,9 @@ Kahneman and Dan Lovallo call the first kind of estimate the inside view. You lo
 
 So Erik asks the outside question. How long did other people's first versions take to reach ten real users? Not three weeks. More like two months. His date moves. His target doesn't.
 
-Take a moment with that. Is there something in your own work that you've only ever judged from the inside? ... And back to Erik.
+Take a moment with that. Is there something in your own work that you've only ever judged from the inside?
+
+And back to Erik.
 
 There's one more piece. Mike Rother studied how Toyota improves, and he separates the challenge, the long direction, from the target condition, the next stop on the way. A target condition describes where you want to be at a date a week to a few months out. It sits just beyond what you currently know how to do, so you'll have to learn your way there. And it says where, not how. The how is found by trying. Rother's work is a framework as well.
 
@@ -100,7 +100,9 @@ There's one more way to move work, and it's my favourite. Snowden says each doma
 
 Snowden's work is a framework, built from research and cases. A careful claim, still to be tested.
 
-Take a moment. Is there something in your work that you've been planning, when it can only be probed? ... And back.
+Take a moment. Is there something in your work that you've been planning, when it can only be probed?
+
+And back.
 
 Erik sorts his twenty pieces: planned here, probed there. But the probes bother him. If he can't plan them, how does he choose which ones to try?
 
@@ -161,7 +163,7 @@ A word on that word. In the last chapter, Snowden's constraints were rules that 
 
 Goldratt gives five focusing steps. Find the constraint. Get the most out of it as it is. Then line everything else up behind it. There are two more, about adding capacity and starting over, five in all. To find it, look for where work piles up. It isn't always visible. And it's often not a machine, but a policy: the way things have always been done.
 
-My reading: when agents produce work fast, the pile tends to form at the person reviewing it. For Erik, that's the midnight reading. Remember it.
+My reading: when agents produce work fast, the pile tends to form at the person reviewing it. For Erik, that's the midnight reading.
 
 Goldratt's work is a framework. Now, how do you lay out the road itself? H. William Dettmer, a practitioner who built on Goldratt, draws it as trees. In one, you list the obstacles to your objective, give each one an intermediate objective that gets past it, and put them in the order they depend on each other. You read it as: in order to do this, we must first do that. In another, you test a proposed change before making it, reading its effects forward, if this, then that, until you spot the unwanted ones. He calls those negative branches.
 
@@ -171,7 +173,9 @@ Dettmer's trees are practice: a method from experience.
 
 Erik tries it. He asks his code agent to read the next change forward. It names one negative branch he hadn't seen: the change would break the email links. Small, but it would have cost him an evening.
 
-Take a moment. Where does work pile up in your own system? ... And back.
+Take a moment. Where does work pile up in your own system?
+
+And back.
 
 So now Erik has an ordered road, and he knows where it waits. But the code agent's next change is enormous. Two thousand lines. Should that worry him?
 
@@ -185,7 +189,7 @@ So now Erik has an ordered road, and he knows where it waits. But the code agent
 
 ### Script
 
-Previously: Erik found the constraint, and it's him, reviewing at midnight. Today his code agent hands him a change of two thousand lines.
+Previously: Erik found the constraint, and it's him, reviewing. Today his code agent hands him a change of two thousand lines.
 
 There's research on this, and it's a different kind from what we've had so far. Nicole Forsgren and her colleagues at DORA have surveyed software teams for years. One of their long-standing findings is that working in small batches, changes small enough to test and judge quickly, goes with better software delivery. These are surveys, so they show that things go together, not that one causes the other.
 
@@ -199,7 +203,9 @@ Next, Dettmer again, with something he calls the logical glue that holds any rea
 
 Dettmer has two more trees, one for tracing today's troubles back to a core problem, and one for dissolving a conflict by finding the hidden assumption behind it. Both are for the desk, when you need them.
 
-Take a moment. What's the largest step you've taken lately, with an agent? How long before you knew whether it worked? ... And back.
+Take a moment. What's the largest step you've taken lately, with an agent? How long before you knew whether it worked?
+
+And back.
 
 Erik's road is in order now, the steps are small, and he can question the agents' reasoning. But questioning them takes him. Every answer they give, he has to read, judge, decide. His road is clearer, and his evenings are still his.
 
@@ -231,7 +237,9 @@ In twenty twenty-five, a group called METR ran a randomised trial. Sixteen exper
 
 Slower, and sure they were faster. Because it's a trial, it can show cause. It's also small, sixteen people, with early twenty twenty-five models, so things may have changed since. But it says something hard to ignore: you can't tell by feel whether AI is helping you.
 
-Take a moment with that. How do you know your agents are helping? ... And back.
+Take a moment with that. How do you know your agents are helping?
+
+And back.
 
 My reading, and it's an important one: Erik's attention and his system's ease depend on each other. An agent that shows its status, and can be read and steered, takes less of him. One that has to be watched takes more. In episode four, the pile formed at Erik's review. Now it has a name. Erik's attention is the constraint.
 
@@ -269,7 +277,9 @@ These are all practitioners, and they agree with each other. Agreement isn't evi
 
 My reading, back to the line in the sand: a rule you give an agent is a constraint. Some are governing, limits the harness enforces. Some are enabling, ways for the agent to act well in context.
 
-Take a moment. Which rule have you told an agent more than once? Could the system hold it instead? ... And back.
+Take a moment. Which rule have you told an agent more than once? Could the system hold it instead?
+
+And back.
 
 So Erik's rules hold now, without him. The tests run. The agents check themselves. And his system has become big enough that he can no longer see it. Where does it all stand?
 
@@ -299,7 +309,9 @@ Both Shneiderman and Tufte offer frameworks, from design research and practice.
 
 So Erik rebuilds his morning view. One screen. His targets across the top. Under each, a small strip per agent, the same shape repeated, showing what's done, what's waiting, and where it's waiting. The detail only when he clicks.
 
-Take a moment. When you open your own system, what does your eye land on first? Is it what you most need to know? ... And back.
+Take a moment. When you open your own system, what does your eye land on first? Is it what you most need to know?
+
+And back.
 
 And there, on the new view, something shows that the old wall of text had hidden. Almost every waiting strip is waiting on the same thing. On Erik.
 
@@ -319,7 +331,7 @@ It's midnight, again. He's reading the agents' work, again. We met him here at t
 
 Goldratt returns with one last turn. The constraint, he said, isn't always a machine. It can be a less obvious resource, like skilled labour. A person. And exploiting a constraint means getting the most out of it as it is, not out of everything else.
 
-My reading: in a builder's system, the constraint is often the builder's own attention. Getting the most out of it means not spending it on what an agent or a rule can carry. So Erik goes back over what he reads at midnight. Half of it, the harness now checks. A quarter, the agents can show him at a glance. What's left is what only he can judge.
+My reading: in a builder's system, the constraint is often the builder's own attention. Getting the most out of it means not spending it on what an agent or a rule can carry. So Erik goes back over what he reads each night. Half of it, the harness now checks. A quarter, the agents can show him at a glance. What's left is what only he can judge.
 
 Sarasvathy returns too. Remember the cupboards? Starting from what you have was half of it. She found more principles in expert entrepreneurs, and three of them matter here.
 
@@ -333,7 +345,9 @@ Sarasvathy's principles are a framework, from her study of twenty-seven expert e
 
 Klein adds one more practice. Before you start, imagine the plan has already failed. Everyone writes down why, alone, then shares one reason at a time. He calls it a premortem, and his point is that it makes it safe to name weaknesses. You may hear that it finds thirty percent more reasons. That figure comes from a single study in nineteen eighty-nine, and it counted reasons, not how good they were. The premortem is advice from experience, not a tested result. Erik asks one of his agents for its own list too, and compares.
 
-Take a moment. What did the last month of building give you, and what did it take? ... And back.
+Take a moment. What did the last month of building give you, and what did it take?
+
+And back.
 
 Now, the question from the start. Erik's nagging feeling: he couldn't say whether any of it was working.
 
